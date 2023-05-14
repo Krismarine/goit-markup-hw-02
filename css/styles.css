@@ -1,0 +1,161 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color:#FFFFFF;  
+    color: var(--major-color);
+}
+:root {
+    --background-text-color:#FFFFFF;
+    --major-color:#2E2F42;
+    --logo-btn-color:#4D5AE5;
+    --border-color:#E7E9FC;
+    --paragraph-color:#434455;
+    --btn-active-color:#404BBF;
+}
+
+/* Header*/
+
+.header {
+   background-color: var(--background-text-color); 
+}
+
+/*Company logo*/
+
+.company-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.166; /* 21/18 */
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--logo-btn-color)
+}
+.logo-studio {
+    color: var(--major-color)
+}
+.logo-web {
+    color: var(--logo-btn-color);
+}
+
+
+.header-list  {
+    list-style: none;
+}
+
+.header-link{ 
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--major-color);
+}
+
+.address-list {
+    list-style: none;
+}
+
+.address-link {
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--paragraph-color);
+    text-decoration: none;
+    text-shadow: 0px 0px 1px var(--border-color);
+}
+
+/* Page-1 */
+
+
+.hero {
+    background-color: var(--major-color);
+}
+h1 {
+    font-size: 56px;
+    line-height: 1.07; /* 60/56 */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--background-text-color);
+}
+
+.order-btn {
+    background-color: var(--logo-btn-color);
+    color: var(--background-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5; /* 24/16 */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+.order-btn:hover , .order-btn:focus {
+    background-color:var(--btn-active-color);
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 1.11; /* 40/36 */
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2; /* 24/20 */
+    letter-spacing: 0.02em;
+}
+p {
+    line-height: 1.5; /* 24/16 */
+    letter-spacing: 0.02em;
+    color:var(--paragraph-color);
+}
+
+.features-list {
+    list-style: none;
+}
+
+.caption-list {
+    list-style: none;
+}
+
+.team-members-list {
+    list-style: none;
+}
+
+
+/* Footer*/
+
+footer {
+    background-color: var(--major-color);
+}
+footer>p {
+    color: var(--background-text-color)
+}  
+
+.footer>.company-logo {
+    color: var(--background-text-color);
+}
+/* Page-2 */
+
+.filter-buttons-list {
+    list-style: none;
+}
+.filter-item {
+    font-weight: 500;
+    line-height: 1.5; /* 24/16 */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    background-color: var(--border-color);
+    color:var(--logo-btn-color)
+}
+.filter-item:hover, .filter-item:focus {
+    background-color: var(--btn-active-color);
+    color: var(--background-text-color);
+    cursor: pointer;
+}
+.product-list {
+    list-style: none;
+}
