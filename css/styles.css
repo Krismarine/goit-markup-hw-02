@@ -10,6 +10,7 @@ body {
     --border-color:#E7E9FC;
     --primery-color:#434455;
     --btn-active-color:#404BBF;
+    --filters-footertext-color:#F4F4FD;
 }
 
 /* Header*/
@@ -37,7 +38,20 @@ body {
 .logo-web {
     color: var(--logo-btn-color);
 }
-
+.logo-footer-studio {
+    color: var(--filters-footertext-color);
+}
+.link-footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17; /* 21/18 */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--logo-btn-color);
+}
 
 .list-header  {
     list-style: none;
@@ -54,16 +68,15 @@ body {
 .link-header:hover, .link-header:focus {
     color: var(--btn-active-color);
 }
-.address {
-    font-style: normal;
-}
+
 .list-address {
   list-style: none;
 }
 .link-address {
+    font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--paragraph-color);
+    color: var(--primery-color);
     text-decoration: none;
     text-shadow: 0px 0px 1px var(--border-color);
 }
@@ -98,15 +111,16 @@ h1 {
     background-color:var(--btn-active-color);
 }
 
-h2 {
+.title-caption , .title-team {
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11; /* 40/36 */
-    text-align: center;
+
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--major-color);
 }
-h3 {
+.subject {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2; /* 24/20 */
@@ -114,6 +128,8 @@ h3 {
     color: var(--major-color);
 }
 p {
+    font-weight: 400;
+    font-size: 16px;
     line-height: 1.5; /* 24/16 */
     letter-spacing: 0.02em;
 
@@ -137,33 +153,55 @@ p {
 footer {
     background-color: var(--major-color);
 }
-footer>p {
-    color: var(--background-text-color)
+.footer-text {
+    color: var(--filters-footertext-color)
 }  
 
-.footer>.link-logo {
-    color: var(--background-text-color);
-}
+
 /* Page-2 */
 
 .filter-buttons-list {
     list-style: none;
 }
 .filter-item {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.5; /* 24/16 */
+    letter-spacing: 0.04em;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
-    background-color: var(--border-color);
+    background-color: var(--filters-footertext-color);
     color:var(--logo-btn-color)
 }
 .filter-item:hover, .filter-item:focus {
     background-color: var(--btn-active-color);
     color: var(--background-text-color);
-    cursor: pointer;
+    cursor: pointer;   
 }
-.product-list {
+
+.title-product {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--major-color);
+}
+
+.list-product {
     list-style: none;
+}
+.link-product {
+    text-decoration: none;
+}
+.product-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primery-color);
 }
