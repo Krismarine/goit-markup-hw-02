@@ -79,9 +79,11 @@ ul {
     line-height: 1.07;
     /* or 107% */
     letter-spacing: 0.02em;
+    text-align: center;
     color: var(--background-color);
 }
 .order-btn {
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -99,7 +101,7 @@ ul {
 .subject {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 1.2;
     /* identical to box height, or 120% */
     letter-spacing: 0.02em;
     color: var(--title-color);
@@ -171,6 +173,7 @@ ul {
 
 
 .filter-item {
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
