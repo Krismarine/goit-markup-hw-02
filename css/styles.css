@@ -28,14 +28,14 @@ body {
     color: var(--primary-brand-color);
 
 }
-a {
+.link {
     text-decoration: none;
 }
 .logo-studio {
     color: var(--title-color);
 }
 /* HEADER*/
-ul {
+.list {
     list-style: none;
 }
 
@@ -136,9 +136,9 @@ ul {
     color: var(--title-color);
 }
 
-.list-team-item {
-    background-color: var(--background-color);
-}
+/*.list-team-item {
+    background-color: var(--background-color);*/
+
 .title-name {
     font-weight: 500;
     font-size: 20px;
